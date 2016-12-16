@@ -16,9 +16,9 @@ class HomeView extends React.Component{
           <h1>Jordan Ledford</h1>
           <h2>Front End Developer</h2>
           <br/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Don't worry, the general format and hard part is done, now I just have to style it.</p>
         </div>
-        
+
         <div className="project-wrapper grid">
           <h1>projects</h1>
           <h2>a timeline and portfolio</h2>
@@ -26,24 +26,28 @@ class HomeView extends React.Component{
           <br/>
 
           <div className="project">
-            <h3>Example</h3>
-
-            <img className="projects grid-item" src="https://unsplash.it/200/300/?random"/>
+            <h3>Who's Playin</h3>
+            <p>Who's Playin is by far the largest collaborative project I have worked on to date. We created a webapp to dynamically find upcoming local artists based on a user's geolocation. It utilizes Spring MVC to it's fullest extent, required complex AJAX promises from 4 APIs, and we wanted it to be pretty. Not a small job for 2 weeks.</p>
+            <img className="projects grid-item" src="https://unsplash.it/300/300/?random"/>
+            <a href="https://github.com/WhosPlayin/WhosPlayin"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
           <div className="project">
-            <h3>Example</h3>
-
-            <img className="projects grid-item" src="https://unsplash.it/500/500/?random"/>
+            <h3>WTF is my Fallout Character</h3>
+            <p>This was my first webapp with backend collaboration. We asked the question "What do I do when I want to play Fallout, but don't know what type of character I want to be?" This webapp was the answer.</p>
+            <img className="projects grid-item" src="https://unsplash.it/300/300/?random"/>
+            <a href="https://github.com/mikeplott/WhoTheFuckIsMyFalloutCharacter"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
           <div className="project">
-            <h3>Example</h3>
-
-            <img className="projects grid-item" src="https://unsplash.it/200/400/?random"/>
+            <h3>Talk to the Void</h3>
+            <p>using websockets (socket.io technology), I created a chat app where messages are sent to all users and then quickly disappear</p>
+            <img className="projects grid-item" src="https://unsplash.it/300/300/?random"/>
+            <a href="https://github.com/jordanledford/talk-to-the-void"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
           <div className="project">
-            <h3>Example</h3>
-
-           <img className="projects grid-item" src="https://unsplash.it/400/300/?random"/>
+           <h3>Is Half Life 3 Out Yet?</h3>
+           <p>a long running joke in the videogame industry, I decided to create a webapp to respond with a list of negative responses to the question <b>"Is Half Life 3 out yet?"</b></p>
+           <img className="projects grid-item" src="https://unsplash.it/300/300/?random"/>
+           <a href="https://github.com/jordanledford/hl3"><i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
