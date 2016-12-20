@@ -1,0 +1,62 @@
+/* =============================================================================
+  RESETS
+============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #f5f5f5;
+}
+a:link { color:#33348e; text-decoration: none; }
+a:visited { color:#33348e; text-decoration: none; }
+a:hover { color:#33348e; text-decoration: none; }
+a:active { color:#7476b4; text-decoration: underline; }
+
+@media screen and (max-width: 768px){
+  video {
+    display: none;
+  }
+}
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.hero{
+  margin-top: 4rem;
+}
+.project-img {
+  max-width: 350px;
+}
+/* =============================================================================
+  VIDEO
+============================================================================= */
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
