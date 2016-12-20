@@ -24,7 +24,7 @@ body {
   font-family: "Oxygen", sans-serif;
   line-height: 1.5;
   text-align: center;
-  color: #B0BEC5;
+  color: #ECEFF1;
 }
 a:link { color:#B3E5FC; text-decoration: none; }
 a:visited { color:#80DEEA; text-decoration: none; }
@@ -37,8 +37,8 @@ a:active { color:#80DEEA; text-decoration: underline; }
   }
 }
 h1 {
-  text-shadow: 1px 2px 1px #f1f1f1;
-  color: #90A4AE;
+  text-shadow: 2px 1px 1px #f4f4f4;
+  color: #ECEFF1;
   font-size: 58px;
   letter-spacing: 0.2em;
 }
@@ -51,7 +51,8 @@ h3 {
   letter-spacing: 0.2em;
 }
 p {
-  color: #B0BEC5;
+  color: #CFD8DC;
+  font-size: 18px;
   line-height: 3rem;
   max-width: inherit;
 }
@@ -62,14 +63,20 @@ li {
   CONTENT
 ============================================================================= */
 .hero{
-  margin-top: 15rem;
-  margin-bottom: 10rem;
+  margin-top: 400px;
+  margin-bottom: 250px;
+}
+.project {
+  margin-bottom: 60px;
 }
 .project-img {
-  max-width: 350px;
+  max-width: 500px;
 }
 .contact {
   margin-top: 5rem;
+}
+.contact-header {
+  margin-bottom: 35px;
 }
 /* =============================================================================
   VIDEO
