@@ -39,20 +39,20 @@ a:active { color:#80DEEA; text-decoration: underline; }
 h1 {
   text-shadow: 2px 1px 1px #f4f4f4;
   color: #ECEFF1;
-  font-size: 58px;
+  font-size: 68px;
   letter-spacing: 0.2em;
 }
 h2 {
-  font-size: 38px;
+  font-size: 44px;
   letter-spacing: 0.2em;
 }
 h3 {
-  font-size: 32px;
+  font-size: 34px;
   letter-spacing: 0.2em;
 }
 p {
   color: #CFD8DC;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 3rem;
   max-width: inherit;
 }
