@@ -31,11 +31,6 @@ a:visited { color:#80DEEA; text-decoration: none; }
 a:hover { color:#4DD0E1; text-decoration: none; }
 a:active { color:#80DEEA; text-decoration: underline; }
 
-@media screen and (max-width: 768px){
-  video {
-    display: none;
-  }
-}
 h1 {
   text-shadow: 2px 1px 1px #f4f4f4;
   color: #ECEFF1;
@@ -96,4 +91,30 @@ video {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+/* =============================================================================
+  MOBILE STYLES
+============================================================================= */
+@media screen and (max-width: 768px){
+  video {
+    display: none;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 20px;
+  }
+  img {
+    display: block;
+  }
+  .hero {
+    margin-top: 80px;
+  }
 }
