@@ -1,4 +1,4 @@
-// this is not an impressive example of my javascript abilities, perhaps look at some other repos i contribute to for a better sense of my skill level.
+// This is not an impressive example of my javascript abilities, perhaps look at some other repos I contribute to for a better sense of my skill level.
 
 // video autoplay
 

@@ -26,6 +26,7 @@ body {
   text-align: center;
   color: #ECEFF1;
 }
+
 a:link { color:#B3E5FC; text-decoration: none; }
 a:visited { color:#80DEEA; text-decoration: none; }
 a:hover { color:#4DD0E1; text-decoration: none; }
@@ -34,25 +35,26 @@ a:active { color:#80DEEA; text-decoration: underline; }
 h1 {
   text-shadow: 2px 1px 1px #f4f4f4;
   color: #ECEFF1;
-  font-size: 68px;
+  font-size: 60px;
   letter-spacing: 0.2em;
 }
 h2 {
-  font-size: 44px;
+  font-size: 40px;
   letter-spacing: 0.2em;
 }
 h3 {
-  font-size: 34px;
+  font-size: 30px;
   letter-spacing: 0.2em;
 }
 h4 {
   font-size: 26px;
 }
 p {
-  color: #CFD8DC;
-  font-size: 30px;
+  color: inherit;
+  font-size: 18px;
   line-height: 3rem;
   max-width: inherit;
+  background: hsla(0, 0%, 0%, 0.30);
 }
 li {
   list-style-type: none;
