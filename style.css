@@ -63,7 +63,7 @@ li {
   CONTENT
 ============================================================================= */
 .hero{
-  margin-top: 400px;
+  margin-top: 200px;
   margin-bottom: 185px;
 }
 .project {
@@ -98,7 +98,7 @@ video {
   MOBILE STYLES
 ============================================================================= */
 @media screen and (max-width: 768px){
-  video {
+  /*video {
     display: none;
   }
   h1 {
@@ -109,7 +109,7 @@ video {
   }
   h4 {
     font-size: 18px;
-  }
+  }*/
   p {
     font-size: 20px;
   }
